@@ -1,0 +1,21 @@
+body {
+  font-family: "Mooli", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Mooli", sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Mooli", sans-serif;
+}
+
+main {
+  margin-top: 55px;
+}
