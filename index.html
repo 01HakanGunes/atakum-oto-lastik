@@ -8,10 +8,13 @@
       content="Lastik, Tamir, Araba, Oto, Atakum, Lastikçi, Tamirci"
     />
     <title>Atakum Oto Lastik</title>
+
+    <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Mooli&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap"
       rel="stylesheet"
     />
+
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
     <link
       rel="stylesheet"
@@ -24,9 +27,14 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="fixed-top text-uppercase">
-      <nav class="navbar bg-dark navbar-dark navbar-expand-lg">
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg shadow-sm bg-white">
         <div class="container">
+          <img
+            src="images/favicon.ico"
+            style="width: 30px; height: 30px"
+            alt="tire-icon"
+          />
           <a href="#" class="navbar-brand">Atakum Oto Lastik</a>
           <button
             class="navbar-toggler"
@@ -36,7 +44,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navmenu">
+          <div class="collapse navbar-collapse nav-justified" id="navmenu">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a href="#about" class="nav-link">Hakkımızda</a>
@@ -55,43 +63,55 @@
 
     <main>
       <section class="text-center">
-        <img class="img-fluid" src="images/main-image.jpeg" alt="" />
-      </section>
-      <section class="bg-primary p-5 text-center">
         <div class="container">
           <div class="row">
-            <div class="col">
-              <h3 class="">ATAKUM OTO LASTİK</h3>
+            <div class="col align-self-center">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h1 class="text-gradient fw-bold text-primary">
+                      ATAKUM OTO LASTİK
+                    </h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p class="px-5 py-3">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Aliquid temporibus nam fugit perspiciatis ipsam
+                      reiciendis.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="col">
+                    <a
+                      href="tel:+90-555-555-55-55"
+                      class="btn btn-lg py-3 btn-primary d-none d-md-block"
+                    >
+                      Hemen Ara
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a
+                      href="https://www.google.com/maps/place/ATAKUM+OTO+LAST%C4%B0K/@41.3538183,36.2387994,17z/data=!3m1!4b1!4m6!3m5!1s0x4088790390a57f07:0x2dd48c0e8c2556c6!8m2!3d41.3538183!4d36.2387994!16s%2Fg%2F1hm3n920g?authuser=0&hl=en&entry=ttu"
+                      class="btn btn-lg py-3 btn-light border border-black d-none d-md-block"
+                    >
+                      Yol Tarifi Al
+                    </a>
+                  </div>
+                  <div class="col-md-2"></div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Tenetur, veritatis.
-              </p>
+            <div class="col-lg">
+              <img
+                class="img-fluid border border-primary-subtle rounded-5"
+                src="images/main-image.jpeg"
+                alt="img"
+              />
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-3"></div>
-
-            <div class="col">
-              <a
-                href="tel:+90-555-555-55-55"
-                class="link-underline-opacity-0 p-2 btn btn-warning center d-none d-md-block"
-              >
-                Hemen Ara
-              </a>
-            </div>
-            <div class="col">
-              <a
-                href="https://www.google.com/maps/place/ATAKUM+OTO+LAST%C4%B0K/@41.3538183,36.2387994,17z/data=!3m1!4b1!4m6!3m5!1s0x4088790390a57f07:0x2dd48c0e8c2556c6!8m2!3d41.3538183!4d36.2387994!16s%2Fg%2F1hm3n920g?authuser=0&hl=en&entry=ttu"
-                class="link-underline-opacity-0 p-2 btn btn-warning d-none d-md-block"
-              >
-                Yol Tarifi Al
-              </a>
-            </div>
-            <div class="col-md-3"></div>
           </div>
         </div>
       </section>
@@ -99,55 +119,55 @@
       <section id="about" class="m-5">
         <div class="text-center">
           <i class="bi bi-dash-lg" style="font-size: 70px"></i>
-          <h1 class="mb-5">Hakkımızda</h1>
+          <h1 class="mb-5 pb-2">Hakkımızda</h1>
         </div>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum esse
-          hic labore incidunt explicabo libero accusantium delectus omnis
-          corporis, molestias culpa officiis unde. Qui magni eius quam minus id
-          consectetur.
+        <p class="text-center px-5">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. A quod
+          perspiciatis veritatis animi aliquid minus corporis ut vero asperiores
+          atque, reiciendis voluptate quaerat facere molestiae illum delectus
+          illo enim ipsa!
         </p>
       </section>
-      <section id="gallery" class="m-5">
+      <section id="gallery">
         <div class="text-center">
           <i class="bi bi-dash-lg" style="font-size: 70px"></i>
-          <h1 class="mb-5">Galeri</h1>
+          <h1 class="mb-5 pb-2">Galeri</h1>
         </div>
-        <div id="carouselExampleIndicators" class="carousel slide">
+        <div id="carouselIndicators" class="carousel slide">
           <div class="carousel-indicators">
             <button
               type="button"
-              data-bs-target="#carouselExampleIndicators"
+              data-bs-target="#carouselIndicators"
               data-bs-slide-to="0"
               class="active"
               aria-current="true"
             ></button>
             <button
               type="button"
-              data-bs-target="#carouselExampleIndicators"
+              data-bs-target="#carouselIndicators"
               data-bs-slide-to="1"
             ></button>
             <button
               type="button"
-              data-bs-target="#carouselExampleIndicators"
+              data-bs-target="#carouselIndicators"
               data-bs-slide-to="2"
             ></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/main-image.jpeg" class="d-block w-100" alt="" />
+              <img src="images/img1.png" class="d-block w-100" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="images/main-image.jpeg" class="d-block w-100" alt="" />
+              <img src="images/img2.png" class="d-block w-100" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="images/main-image.jpeg" class="d-block w-100" alt="" />
+              <img src="images/img3.png" class="d-block w-100" alt="" />
             </div>
           </div>
           <button
             class="carousel-control-prev bg-dark bg-opacity-25"
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#carouselIndicators"
             data-bs-slide="prev"
           >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -156,7 +176,7 @@
           <button
             class="carousel-control-next bg-dark bg-opacity-25"
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#carouselIndicators"
             data-bs-slide="next"
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -164,17 +184,25 @@
           </button>
         </div>
       </section>
-      <section id="contact" class="m-5">
+      <section id="contact" class="m-5 text-center">
+        <i class="bi bi-dash-lg" style="font-size: 70px"></i>
+        <h1 class="mb-5">Bize Ulaşın</h1>
+        <a
+          class="text-center"
+          href="https://www.google.com/maps/place/ATAKUM+OTO+LAST%C4%B0K/@41.3538183,36.2387994,17z/data=!3m1!4b1!4m6!3m5!1s0x4088790390a57f07:0x2dd48c0e8c2556c6!8m2!3d41.3538183!4d36.2387994!16s%2Fg%2F1hm3n920g?authuser=0&hl=en&entry=ttu"
+        >
+          <img
+            src="images/g-maps-location.png"
+            class="img-fluid p-lg-5 pb-5"
+            alt="maps"
+          />
+        </a>
         <div class="container">
-          <div class="row text-center">
-            <i class="bi bi-dash-lg" style="font-size: 70px"></i>
-            <h1 class="mb-5">Bize Ulaşın</h1>
-          </div>
           <div class="row">
             <div class="col-sm-4 mb-3">
-              <div class="card h-100">
+              <div class="card h-100 shadow-lg">
                 <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">İletişim Tel</h5>
+                  <h5 class="card-title pb-2">İletişim Tel</h5>
                   <p class="card-text">0555-555-55-55</p>
                   <a
                     href="tel:+90-555-555-55-55"
@@ -185,9 +213,9 @@
               </div>
             </div>
             <div class="col-sm-4 mb-3">
-              <div class="card h-100">
+              <div class="card h-100 shadow-lg">
                 <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">Adres</h5>
+                  <h5 class="card-title pb-2">Adres</h5>
                   <p class="card-text">
                     Yenimahalle Atatürk Bulvarı No:167/A 55270 Atakum/Samsun
                     Türkiye
@@ -201,9 +229,9 @@
               </div>
             </div>
             <div class="col-sm-4 mb-3">
-              <div class="card h-100">
+              <div class="card h-100 shadow-lg">
                 <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">Çalışma Saatleri</h5>
+                  <h5 class="card-title pb-2">Çalışma Saatleri</h5>
                   <div>Pzt:09:00-19:00</div>
                   <div>Sal:09:00-19:00</div>
                   <div>Çar:09:00-19:00</div>
@@ -219,29 +247,35 @@
       </section>
     </main>
 
-    <footer class="fixed-bottom bg-dark d-md-none">
+    <footer class="fixed-bottom bg-white d-md-none shadow-lg">
       <div class="container">
         <div class="row text-center">
           <div class="col">
             <div>
-              <i class="bi bi-telephone-fill text-light"></i>
+              <i
+                class="bi bi-telephone-fill text-primary"
+                style="font-size: 30px"
+              ></i>
             </div>
             <div>
               <a
                 href="tel:+90-555-555-55-55"
-                class="link-light link-underline-opacity-0"
+                class="link-underline link-underline-opacity-0 link-dark"
                 >Ara</a
               >
             </div>
           </div>
           <div class="col">
             <div>
-              <i class="bi bi-geo-alt text-light"></i>
+              <i
+                class="bi bi-geo-alt-fill text-primary"
+                style="font-size: 30px"
+              ></i>
             </div>
             <div>
               <a
                 href="https://www.google.com/maps/place/ATAKUM+OTO+LAST%C4%B0K/@41.3538183,36.2387994,17z/data=!3m1!4b1!4m6!3m5!1s0x4088790390a57f07:0x2dd48c0e8c2556c6!8m2!3d41.3538183!4d36.2387994!16s%2Fg%2F1hm3n920g?authuser=0&hl=en&entry=ttu"
-                class="link-light link-underline-opacity-0"
+                class="link-underline link-underline-opacity-0 link-dark"
                 >Yol Tarifi</a
               >
             </div>
